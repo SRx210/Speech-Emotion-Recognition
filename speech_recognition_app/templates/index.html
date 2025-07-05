@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+<head>
+    <title>Speech Emotion Recognition</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        .upload-box {
+            margin: auto;
+            width: 300px;
+            padding: 20px;
+            border: 2px dashed #ccc;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Speech Emotion Recognition</h1>
+    <form action="/" method="post" enctype="multipart/form-data" class="upload-box">
+        <input type="file" name="audio" accept=".wav" required><br><br>
+        <input type="submit" value="Predict Emotion">
+    </form>
+
+    {% if emotion %}
+        <h2>Predicted Emotion: <span style="color:green">{{ emotion }}</span></h2>
+    {% endif %}
+
+    {% if scores %}
+    <h3>Confidence Scores:</h3>
+    <table style="margin:auto; border-collapse: collapse;">
+        <tr>
+            <th style="padding: 8px;">Emotion</th>
+            <th style="padding: 8px;">Confidence (%)</th>
+        </tr>
+        {% for label, score in scores.items() %}
+        <tr>
+            <td style="padding: 8px;">{{ label }}</td>
+            <td style="padding: 8px;">{{ score }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+    {% endif %}
+</body>
+</html>
