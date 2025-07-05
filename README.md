@@ -1,5 +1,3 @@
-Absolutely! Here’s a well-structured, human-friendly `README.md` for your **Speech Emotion Recognition Flask Web App** that you can use on GitHub:
-
 # 🎤 Speech Emotion Recognition Web App
 
 This is a deep learning–based web application that detects **emotions from human speech**. Upload a `.wav` audio file, and the model will predict the emotion being expressed — along with confidence scores for each class.
