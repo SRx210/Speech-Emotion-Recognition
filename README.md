@@ -1,4 +1,4 @@
-# 🎤 Speech Emotion Recognition Web App
+# Speech Emotion Recognition Web App
 
 This is a deep learning–based web application that detects **emotions from human speech**. Upload a `.wav` audio file, and the model will predict the emotion being expressed — along with confidence scores for each class.
 
@@ -6,7 +6,7 @@ This is a deep learning–based web application that detects **emotions from hum
 
 ---
 
-## 🧠 Emotions Detected
+## Emotions Detected
 
 - Happy 😊  
 - Sad 😢  
@@ -18,7 +18,7 @@ This is a deep learning–based web application that detects **emotions from hum
 
 ---
 
-### 🚀 Features
+### Features
 
 ✅ Upload `.wav` files  
 ✅ Displays top predicted emotion  
@@ -29,7 +29,7 @@ This is a deep learning–based web application that detects **emotions from hum
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Layer         | Tools Used                        |
 |---------------|------------------------------------|
@@ -41,7 +41,7 @@ This is a deep learning–based web application that detects **emotions from hum
 
 ---
 
-## 📁 Folder Structure
+## Folder Structure
 
 ```
 
@@ -60,7 +60,7 @@ speech\_emotion\_app/
 
 ---
 
-## 📦 How to Run Locally
+## How to Run Locally
 
 > You’ll need Python 3.10+ and pip installed.
 
@@ -84,7 +84,7 @@ python -m venv tf-env
 pip install -r requirements.txt
 ```
 
-> ⚠️ **Important:** If you see errors with NumPy, install version <2.0:
+> **Important:** If you see errors with NumPy, install version <2.0:
 
 ```bash
 pip install "numpy<2.0"
@@ -101,7 +101,7 @@ Then open your browser at:
 
 ---
 
-## 📊 Model Training (Optional)
+## Model Training (Optional)
 
 The model was trained on the [TESS dataset](https://www.kaggle.com/datasets/ejlok1/toronto-emotional-speech-set-tess), using MFCC features and a deep neural network built with Keras.
 
@@ -109,13 +109,13 @@ You can retrain your own model using the `extract_features()` method in `utils.p
 
 ---
 
-## 📜 License
+## License
 
 This project is open-source and available under the MIT License.
 
 ---
 
-## ❤️ Acknowledgements
+## Acknowledgements
 
 * [Librosa](https://librosa.org/) for powerful audio processing
 * [Kaggle TESS Dataset](https://www.kaggle.com/datasets/ejlok1/toronto-emotional-speech-set-tess)
@@ -123,7 +123,7 @@ This project is open-source and available under the MIT License.
 
 ---
 
-## 🙋‍♂️ Author
+## Author
 
 Made by Sohan Raut (SRx210)
 
