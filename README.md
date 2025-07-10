@@ -20,12 +20,12 @@ This is a deep learning–based web application that detects **emotions from hum
 
 ### Features
 
-✅ Upload `.wav` files  
-✅ Displays top predicted emotion  
-✅ Shows confidence scores for all emotions  
-✅ Tooltip explanations (e.g. PS = Pleasant Surprise)  
-✅ Clean, simple HTML frontend  
-✅ Powered by MFCC audio features and a custom-trained deep learning model
+● Upload `.wav` files  
+● Displays top predicted emotion  
+● Shows confidence scores for all emotions  
+● Tooltip explanations (e.g. PS = Pleasant Surprise)  
+● Clean, simple HTML frontend  
+● Powered by MFCC audio features and a custom-trained deep learning model
 
 ---
 
