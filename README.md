@@ -66,7 +66,7 @@ speech\_emotion\_app/
 
 ### 1. Clone the repo
 ```bash
-git clone https://github.com/SRx210/speech-emotion-recognition-app.git
+git clone https://github.com/SRx210/Speech-Emotion-Recognition.git
 cd speech_emotion_app
 ````
 
